@@ -4,25 +4,26 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>JezSalad</title>
+      <link rel="stylesheet" href="styles.css">
    </head>
    <body>
-      <img class="background-img" src="./icons/background.svg" alt="Background" />
+      <!-- <img class="background-img" src="./icons/background.svg" alt="Background" /> -->
       <header class="main-header">
-         <a class="logo-header">JEZ SALAD</a>
+         <a class="logo-header"><span class="orange-highlight">JEZ</span> SALAD</a>
          <nav class="header-nav">
             <a class="header-link" href="#">Home</a>
             <a class="header-link" href="#">Menu</a>
             <a class="header-link" href="#">Contact</a>
             <a class="header-link" href="#">About Us</a>
-            <button class="sign-up-btn">Sign</button>
          </nav>
+         <button class="sign-up-btn">Sign</button>
       </header>
       <section class="header-page">
          <div class="header-page-text">
             <span class="highlight">#1 Best Healthy Salad</span>
             <h1><span style="color: orange;">Skip</span> The Diet, Just Eat Healthy With Jez Salad</h1>
             <p>Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
-            <button>Order Food</button>
+            <button id>Order Food</button>
             <div class="main-statistics">
                <div class="statistics-entry">
                   <span class="statistics-amount">5.000+</span>
@@ -44,32 +45,34 @@
             <div>
                <div class="customer-review">
                   <img src="./icons/smile.svg" alt="Smiling emoji" />
-                  <span>Our Happy Customer</span>
-                  <div>
-                     <img src="./icons/star.svg" alt="Star" />
-                     <span><b>4.9</b> (1,989 Reviews)</span>
+                  <div class="customer-text">
+                     <span class="happy-text">Our Happy Customer</span>
+                     <div class="star-rating">
+                        <img src="./icons/star.svg" alt="Star" />
+                        <span><b>4.9</b> (1,989 Reviews)</span>
+                     </div>
                   </div>
                </div>
                <div class="calories">
                   <span>Daily Calories</span>
-                  <span class="calories-bold">123 Cal</span>
+                  <h6><span class="calories-bold">123</span> Cal</h6>
                   <div class="calorie-progress-container">
-                     <progress class="calorie-progress" value="30" max="100"></progress>
-                     <progress class="calorie-progress" value="50" max="100"></progress>
-                     <progress class="calorie-progress" value="60" max="100"></progress>
-                     <progress class="calorie-progress" value="55" max="100"></progress>
-                     <progress class="calorie-progress" value="50" max="100"></progress>
-                     <progress class="calorie-progress" value="65" max="100"></progress>
-                     <progress class="calorie-progress" value="75" max="100"></progress>
-                     <progress class="calorie-progress" value="80" max="100"></progress>
-                  </div>
+                     <div class="progress-bar" style="--value: 30%"></div>
+                     <div class="progress-bar" style="--value: 50%"></div>
+                     <div class="progress-bar" style="--value: 60%"></div>
+                     <div class="progress-bar" style="--value: 55%"></div>
+                     <div class="progress-bar" style="--value: 50%"></div>
+                     <div class="progress-bar" style="--value: 65%"></div>
+                     <div class="progress-bar" style="--value: 75%"></div>
+                     <div class="progress-bar" style="--value: 80%"></div>
+                 </div>
                </div>
             </div>
          </aside>
       </section>
       <section class="why-us-page">
          <div class="text">
-            <h2>Why choose us for <span style="color: orange;">your healthy food</span></h2>
+            <h2>WHY CHOOSE US FOR <span style="color: orange;">YOUR HEALTHY FOOD</span></h2>
             <p>We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.</p>
          </div>
          <div class="info-cards">

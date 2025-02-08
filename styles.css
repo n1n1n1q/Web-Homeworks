@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: "Poppins", serif;
+}
+
+.orange-highlight {
+    color: #FB9300;
+}
+
+.main-header {
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header {
+    font-family: "Roboto", serif;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.header-nav {
+    all: unset;
+    a {
+        padding: 0px 10px;
+        color:#575757;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #000;
+        font-weight: 700;
+        color: #FB9300;
+    }
+}
+
+.sign-up-btn {
+    all:unset;
+    border-radius: 100px;
+    background-color: #FB9333;
+    color: #FFFFFF;
+    padding: 12px 32px 12px 32px;
+}
+
+/* dasdasdas */
+.header-page {
+    /* width: %; */
+    display: flex;
+}
+
+.highlight {
+    border-radius: 100px;
+    padding: 16px;
+    background-color: #FFF0DC;
+    color: #FB9333;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #575757;
+}
+
+.header-page-text {
+    margin-left: 60px;
+    p {
+        font-size: 20px;
+        color: #828282;
+    }
+    button {
+        all:unset;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 100px;
+        background-color: #FB9333;
+        color: #FFFFFF;
+        padding: 18px 32px 18px 32px;
+    }
+    .main-statistics {
+        display: flex;
+        justify-content: space-between;
+        .statistics-entry {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            span {
+                color: #828282;
+            }
+            .statistics-amount {
+                color: #575757;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+
+.customer-review {
+    display: flex;
+    background-color:#828282;
+    padding: 7px;
+    border-radius: 100px;
+}
+.happy-text {
+    font-weight: 600;
+}
+
+.calories {
+    span {
+        color: #575757;
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #575757;
+        .calories-bold{
+            color: #2B2B2B;
+        }
+    }
+
+    .calorie-progress-container {
+        display: flex;
+        gap: 8px;
+    }
+    
+    .progress-bar {
+        height: 40px;
+        width: 6px;
+        background: #E7E5F1;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .progress-bar::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: var(--value);
+        background: linear-gradient(180deg, #FB9333 0%, #FFB168 100%);
+        border-radius: 5px;
+    }
+}
+
+
+
+/*  */
+/* why us */
+/*  */
+
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    p {
+        font-size: 20px;
+        color: #828282;
+    }
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.info-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+    max-width: 300px;
+}
+
+.info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(255, 165, 0, 0.2);
+    transition: transform 0.3s ease;
+
+}
+
+.info-card img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.info-card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2B2B2B;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 16px;
+    color: #575757;
+    /* margin-bottom: 15px; */
+}
+
+.info-card a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #575757;
+    /* font-weight: 600; */
+    text-decoration: none;
+}
+
+.info-card a img {
+    width: 14px;
+    margin-left: 5px;
+    color: #575757; 
+    /* todo : make black arrow */
+}
+
+.info-card a:hover {
+    color: #FB9333;
+}
