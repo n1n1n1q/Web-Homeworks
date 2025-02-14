@@ -417,26 +417,36 @@ h2 {
     position: relative;
     background-image: url('icons/background_input.svg');
     background-size: cover;
-    background-position: center;
+    background-position: center 0%;
     padding: 60px 0;
     color: white;
     text-align: center;
     background-color: #FFF1DE;
+    border-radius: 50px;
+}
+
+.subscription-container {
+    display: flex; 
+    flex-direction: column;
 }
 
 .subscription span {
     color: #FB9333;
     font-size: 20px;
     font-weight: 500;
+    margin-top: 0px;
 }
 
 .subscription h2 {
     font-weight: 600;
     font-size: 48px;
     color: #585858;
+    margin-top: 0px;
+    margin-bottom: 17px;
 }
 
 .subscription p {
+    margin: 0;
     font-weight: 500;
     font-size: 16px;
     color: #575757;
@@ -444,8 +454,30 @@ h2 {
 
 .subscription-box {
     background-color: #FFFFFF;
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0 200px;
 }
 
+.subscription-box input {
+    all: unset;
+    /* background-color: #FFF1DE; */
+    font-size: 16px;
+    color: #575757;
+    width: 100%;
+    padding: 15px 30px;
+    text-align: left
+}
+
+.subscription-box button {
+    all: unset;
+    background-color: #FB9333;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
 
 /*  */
 /*  */
