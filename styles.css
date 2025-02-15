@@ -119,37 +119,67 @@ h1 {
 
 
 .customer-review {
+    z-index: -1;
     display: flex;
-    background-color:#828282;
-    padding: 7px;
+    gap: 10px;
+    background-color:#FFFFFF;
+    padding: 7px 50px 7px 7px;
     border-radius: 100px;
+    position: absolute;
+    bottom: -8%;
+    right: 23%;
+    justify-content: space-between;
 }
+
+.customer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .happy-text {
     font-weight: 600;
+    color: #575757;
+}
+
+.star-rating span {
+    /* margin-top: 100px; */
+    font-size: 12px;
+    color: #999999;
 }
 
 .calories {
+    position: absolute;
+    bottom: -19%;
+    right: 5%;
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    padding: 21px;
+    opacity: 0.95;
     span {
         color: #575757;
         font-size: 16px;
     }
     h6 {
         font-size: 24px;
-        font-weight: 600;
+        margin: 0 0 15px 0;
         color: #575757;
-        .calories-bold{
+        font-weight: 600;
+        b {
+            font-weight: 600;
             color: #2B2B2B;
         }
     }
 
+
     .calorie-progress-container {
         display: flex;
-        gap: 8px;
+        justify-content: space-between;
     }
     
     .progress-bar {
-        height: 40px;
-        width: 6px;
+        height: 59px;
+        width: 8px;
         background: #E7E5F1;
         border-radius: 5px;
         position: relative;
@@ -177,17 +207,24 @@ h1 {
 .why-us-page {
     margin: 0 90px;
 }
-.text{
+.why-us-page .text{
+    margin: 0;
     display: flex;
-    /* justify-content: space-between; */
     flex-direction: row;
+    justify-content: space-between;
+    /* text-align: left; */
     p {
         font-size: 20px;
         color: #828282;
+        line-height: 1.6;
     }
 }
 
-h2 {
+.why-us-page .text h2 {
+    line-height: 1.13;
+    text-align: left;
+    margin: 0;
+    width: 1700px;
     font-size: 48px;
     font-weight: 600;
 }
