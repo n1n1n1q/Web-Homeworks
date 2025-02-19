@@ -220,11 +220,13 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 70px;
   p {
     font-size: 20px;
     color: #828282;
     line-height: 1.6;
+    width: 58%;
   }
 }
 
@@ -233,7 +235,7 @@ h1 {
   line-height: 1.13;
   text-align: left;
   margin: 0;
-  width: 150%;
+  width: 100%;
   max-width: 1700px;
   font-size: 48px;
   font-weight: 600;
