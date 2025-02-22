@@ -138,6 +138,7 @@ h1 {
   position: absolute;
   top: 593px;
   right: 380px;
+  box-shadow: 0 0px 40px #FFD34724;
 }
 
 .customer-text {
@@ -200,7 +201,7 @@ h1 {
     left: 0;
     width: 100%;
     height: var(--value);
-    background: linear-gradient(180deg, #fb9333 0%, #ffb168 100%);
+    background: linear-gradient(180deg, #FFD7A0 0%, #FB9333 100%);
     border-radius: 5px;
   }
 }
@@ -451,6 +452,7 @@ h1 {
 }
 .menu .text {
   margin-left: 120px;
+  margin-right: 120px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -597,15 +599,18 @@ h1 {
 /* footer  */
 /*         */
 /*         */
+
 footer {
   margin: 0px 120px;
   margin-bottom: 70px;
   display: flex;
   justify-content: space-between;
 }
+
 footer .logo {
   display: flex;
   flex-direction: column;
+  max-width: 210px;
 }
 
 .footer-logo {
@@ -616,7 +621,7 @@ footer .logo {
 
 footer p {
   font-size: 16px;
-  width: 210px;
+  /* width: 210px; */;
   color: #575757;
   margin-bottom: 48px;
 }
@@ -629,6 +634,7 @@ footer p {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 20%;
 }
 
 .footer-bold {
@@ -646,6 +652,7 @@ footer a {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  max-width: 20%;
 }
 
 .touch-entry {
@@ -662,6 +669,7 @@ footer a {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  max-width: 20%;
 }
 
 .links-container {
