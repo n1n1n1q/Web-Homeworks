@@ -35,6 +35,8 @@ body {
 
 .header-nav {
   all: unset;
+  display: flex;
+  gap: 30px;
   a {
     padding: 0px 10px;
     color: #575757;
@@ -138,7 +140,7 @@ h1 {
   position: absolute;
   top: 593px;
   right: 380px;
-  box-shadow: 0 0px 40px #FFD34724;
+  box-shadow: 0 0px 40px #ffd34724;
 }
 
 .customer-text {
@@ -161,7 +163,7 @@ h1 {
   position: absolute;
   top: 565px;
   right: 69px;
-  background-color: #ffffff;
+  background-color: #fffffffa;
   border-radius: 28px;
   padding: 21px 29px;
   opacity: 0.95;
@@ -201,7 +203,7 @@ h1 {
     left: 0;
     width: 100%;
     height: var(--value);
-    background: linear-gradient(180deg, #FFD7A0 0%, #FB9333 100%);
+    background: linear-gradient(180deg, #ffd7a0 0%, #fb9333 100%);
     border-radius: 5px;
   }
 }
@@ -621,7 +623,6 @@ footer .logo {
 
 footer p {
   font-size: 16px;
-  /* width: 210px; */;
   color: #575757;
   margin-bottom: 48px;
 }
@@ -662,7 +663,7 @@ footer a {
 }
 
 .touch-text {
-  width: 210px;
+  max-width: 210px;
 }
 
 .social-links {
